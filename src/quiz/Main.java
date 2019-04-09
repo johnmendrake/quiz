@@ -33,5 +33,6 @@ public class Main {
 				answer = sc.next();
 			}
 		} while (answer.equals("J"));
+		sc.close();
 	}
 }
