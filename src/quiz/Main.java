@@ -4,11 +4,14 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-
+	private static Quiz1 meinQuiz1 = new Quiz1();
 	private static ArrayList<Player> players = new ArrayList<Player>();
 
 	public static void main(String[] args) {
-		addPlayers();
+		//addPlayers();
+		meinQuiz1.fragenEinlesen();
+		new GuiQuiz1(meinQuiz1);
+		
 	}
 
 	public static void addPlayers() {
@@ -31,7 +34,7 @@ public class Main {
 
 			answer = "";
 			while (!(answer.equals("J") || answer.equals("N"))) {
-				System.out.print("Wollen Sie weitere Spieler hinzufügen? [J/N] ");
+				System.out.print("Wollen Sie weitere Spieler hinzufuegen? [J/N] ");
 				answer = sc.next();
 			}
 		} while (answer.equals("J"));
