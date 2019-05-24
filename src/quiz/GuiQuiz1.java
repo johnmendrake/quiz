@@ -7,10 +7,10 @@ import javax.swing.event.*;
 
 /**
  *
- * Beschreibung
+ * A class creating a GUI to see the question and the possible answers.
  *
  * @version 1.0 vom 14.05.2019
- * @author 
+ * @author TheRaynex
  */
 
 public class GuiQuiz1 extends JFrame {

@@ -1,5 +1,10 @@
 package quiz;
 
+/**
+ * A simple class to store the questions, their answers and the points the correct answer will give.
+ * @author TheRaynex
+ *
+ */
 public class Question {
 	
 	private String frage = "";
