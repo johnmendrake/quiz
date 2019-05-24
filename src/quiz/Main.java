@@ -34,7 +34,7 @@ public class Main {
 
 			answer = "";
 			while (!(answer.equals("J") || answer.equals("N"))) {
-				System.out.print("Wollen Sie weitere Spieler hinzufügen? [J/N] ");
+				System.out.print("Wollen Sie weitere Spieler hinzufuegen? [J/N] ");
 				answer = sc.next();
 			}
 		} while (answer.equals("J"));
