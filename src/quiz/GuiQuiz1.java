@@ -14,7 +14,8 @@ import javax.swing.event.*;
  */
 
 public class GuiQuiz1 extends JFrame {
-    // Anfang Attribute
+
+	// Anfang Attribute
     private Quiz1 meinQuiz;
     private JTextField tfA = new JTextField();
     private JTextField textA = new JTextField();
@@ -132,25 +133,66 @@ public class GuiQuiz1 extends JFrame {
     
     
     public void bA1_ActionPerformed(ActionEvent evt) {
-        // TODO hier Quelltext einfügen
-        System.out.println("A");
+    	kontrolle();
+    	bA1.setBackground(Color.WHITE);
     } // end of bA1_ActionPerformed
 
     public void bB1_ActionPerformed(ActionEvent evt) {
-        // TODO hier Quelltext einfügen
-        System.out.println("B");
+    	kontrolle();
+    	bB1.setBackground(Color.WHITE);
     } // end of bB1_ActionPerformed
 
     public void bC_ActionPerformed(ActionEvent evt) {
-        // TODO hier Quelltext einfügen
-        System.out.println("C");
+    	kontrolle();
+    	bC.setBackground(Color.WHITE);
     } // end of bC_ActionPerformed
 
     public void bD_ActionPerformed(ActionEvent evt) {
-        // TODO hier Quelltext einfügen
-        System.out.println("D");
+    	kontrolle();
+    	bD.setBackground(Color.WHITE);
     } // end of bD_ActionPerformed
+    
+    public void kontrolle() {
+    	switch (meinQuiz.getFrage1().getRichtig()) {
+		case 'A':
+			textA.setBackground(Color.GREEN);
+        	textC.setBackground(Color.RED);
+     		textB.setBackground(Color.RED);
+     		textD.setBackground(Color.RED);
+     		System.out.println("A");
+			
+			break;
+			
+		case 'B':
+			textB.setBackground(Color.GREEN);
+    		textA.setBackground(Color.RED);
+			textC.setBackground(Color.RED);
+			textD.setBackground(Color.RED);
+			System.out.println("B");
+			break;
+			
+		case 'C':
+			textC.setBackground(Color.GREEN);
+    		textA.setBackground(Color.RED);
+    		textB.setBackground(Color.RED);
+    		textD.setBackground(Color.RED);
+    		System.out.println("C");
+	
+			break;
+			
+		case 'D':
+			textD.setBackground(Color.GREEN);
+    		textA.setBackground(Color.RED);
+    		textB.setBackground(Color.RED);
+    		textC.setBackground(Color.RED);
+    		System.out.println("D");
+			break;
 
+		default:
+			System.out.println("lol");
+			break;
+		}
+    }
     // Ende Methoden
 } // end of class GuiQuiz1
 
