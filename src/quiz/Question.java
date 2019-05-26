@@ -13,6 +13,7 @@ public class Question {
 	private String antD = "";
 	private String antC = "";
 	private int punkte;
+	private char richtig ;
 	
 	public String getFrage() {
 		return frage;
@@ -49,8 +50,13 @@ public class Question {
 	}
 	public void setPunkte(int punkte) {
 		this.punkte = punkte;
+	}	
+	public int getRichtig() {
+		return richtig;
 	}
-	
+	public void steRichtig(char chara) {
+		this.richtig = chara;
+	}
 	
 	
 	

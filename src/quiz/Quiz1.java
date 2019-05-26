@@ -26,6 +26,7 @@ public class Quiz1 {
 	
 	Scanner sc = new Scanner(datei);
 	sc.useDelimiter("\n");
+
 	
 	while (sc.hasNext()) {
 		
@@ -43,6 +44,11 @@ public class Quiz1 {
 			frage1.setAntD(hilf);
 		else if (hilf.charAt(0) == '0')
 			frage1.setPunkte(Integer.parseInt(hilf));
+		else if (hilf.charAt(0) == 't') {
+			char richtig = hilf.charAt(6);
+			frage1.steRichtig(richtig);
+		}
+			
 		
 	}
 	sc.close();
