@@ -1,0 +1,7 @@
+Frage: Wie viele Neutronen hat ein Wasserstoffatom
+A: 0
+B: 1
+C: 2
+D: 3
+true: A
+0

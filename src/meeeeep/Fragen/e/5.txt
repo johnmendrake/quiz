@@ -1,0 +1,7 @@
+Frage: Auf welche sehr rätselhafte Figur hat der "Eine Ring" keine Wirkung? (Herr der Ringe)  
+A: Tom Bombadil  
+B: Gríma Schlangenzunge
+C: Galadriel 
+D: Peregrin Tuk 
+true: A
+0

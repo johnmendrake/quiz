@@ -1,0 +1,7 @@
+Frage: Wie heiﬂt die Hauptstadt von Kalifornien?
+A: Los Angeles
+B: San Francisco
+C: Sacramento
+D: San Diego
+true: C
+0

@@ -1,0 +1,7 @@
+Frage: Was gehört nicht zu den antiken Weltwundern? 
+A: Grab des Königs Mausolos in Halikarnassos
+B: Gärten von Babylon
+C: Chinesische Mauer
+D: Koloss von Rhodos
+true: C
+0

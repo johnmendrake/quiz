@@ -1,0 +1,7 @@
+Frage: Wie heiﬂt das Schiff von Captain Jack Sparrow?
+A: Bounty
+B: Black Pearl
+C: Fliegender Holl‰nder
+D: HMS Endeavour
+true: B
+0

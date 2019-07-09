@@ -1,0 +1,7 @@
+Frage: Wann wurde die DLRG gegründet?
+A: 1913
+B: 1918
+C: 1900
+D: 1914
+true: A
+010

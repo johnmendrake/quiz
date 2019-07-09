@@ -1,0 +1,7 @@
+Frage: Wie viele Bit hat ein Byte
+A: 10	
+B: 8
+C: 100
+D: 6
+true: B 
+0

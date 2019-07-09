@@ -1,0 +1,7 @@
+Frage: Wo für steht DNS?
+A: Desoxyribonukleinsäure
+B: Ribonukleinsäure
+C: Desoxyribonukleinacid
+D: Domain Name Syntax
+true: A
+0

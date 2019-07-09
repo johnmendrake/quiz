@@ -1,0 +1,7 @@
+Frage: DLRG?
+A: Deutsche Liebes Rettungs Gesellschaft
+B: Deutsche Lebens Rettungs Gemeinschaft
+C: Deutsche Lebens Rettungs Gesellschaft
+D: Deutsche Lebens Regulierungs Gesellschaft
+true: C
+0

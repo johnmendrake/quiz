@@ -1,0 +1,7 @@
+Frage: Wer verursacht „Ebbe und Flut“?
+A: Sterne und Menschen
+B: Windräder
+C: Sonne
+D: Erde und Mond
+true: D
+0

@@ -1,0 +1,7 @@
+Frage: Wo wurde die erste Atombombe abgewurfen? 
+A: Soul
+B: Tokyo
+C: Nagasaki
+D: Hiroshima
+true: D
+0

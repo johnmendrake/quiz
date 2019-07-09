@@ -1,0 +1,7 @@
+Frage: Wann endete der erste Weltkrieg?
+A: 1914
+B: 1945
+C: 1918
+D: 1879
+true: C
+0

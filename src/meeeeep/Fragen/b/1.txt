@@ -1,0 +1,7 @@
+Frage: Was ist die Hauptstadt von den Niederlanden?
+A: Den Haag
+B: Amsterdam
+C: Roermond
+D: Berlin
+true: B
+0

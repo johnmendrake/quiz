@@ -1,0 +1,7 @@
+Frage: Wie heißt der südlichste Punkt Südamerikas?
+A: Kap der Guten Hoffnungen
+B: Kap Hoorn
+C: Kap Leeuwin
+D: Nordkap
+true: B
+0

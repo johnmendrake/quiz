@@ -1,0 +1,7 @@
+Frage: Wofür steht das T in James T. Kirk?
+A: Thomas
+B: Theodor
+C: Tiberius
+D: Tom
+true: C
+0

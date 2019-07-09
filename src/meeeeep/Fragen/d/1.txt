@@ -1,0 +1,7 @@
+Frage: Was ist MINT?
+A: Mathematik, Informatik, Naturwissenschaft ohne Technik
+B: Mathematik, Informatik, Naturwissenschaft aus Toronto
+C: Mathematik, Informatik, Naturkunde und Technik
+D: Mathematik, Informatik, Naturwissenschaft und Technik
+true: D
+0

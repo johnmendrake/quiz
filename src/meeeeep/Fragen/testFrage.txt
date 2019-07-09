@@ -1,0 +1,7 @@
+Frage: Wie alt bin ich?
+A: 3
+B: Das soll testen wie lang eine Frage sein darf lol ey
+C: 19
+D: 22
+true: C
+015

@@ -1,0 +1,7 @@
+Frage: Welches Land gehört nicht zue EU?
+A: Deutschland
+B: Niederlande
+C: Norwegen
+D: Frankreich
+true: C
+0

@@ -1,0 +1,7 @@
+Frage: Wo wurde die DLRG gegründet?
+A: Bad Nenndorf
+B: Berlin
+C: Leipzig
+D: Hamburg
+true: C
+0

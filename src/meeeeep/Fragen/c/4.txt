@@ -1,0 +1,7 @@
+Frage: Was war die lieblings App der Deutschen während der WM 2006?
+A: WhatsApp
+B: Twitter
+C: Facebook
+D: keine
+true: D
+0
