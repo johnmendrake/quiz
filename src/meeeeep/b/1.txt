@@ -4,4 +4,4 @@ B: Amsterdam
 C: Roermond
 D: Berlin
 true: B
-0
+010

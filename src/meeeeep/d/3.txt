@@ -4,4 +4,4 @@ B: Abstand zwischen Erde und Mond
 C: Abstand zwischen Sonne und dem Rand des Sonnensystems
 D: Abstand zwischen Berlin und Auckland
 true: A
-0
+030

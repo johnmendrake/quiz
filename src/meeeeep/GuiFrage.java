@@ -22,6 +22,7 @@ public class GuiFrage extends JFrame {
 	private static final long serialVersionUID = 1L;
 	// Anfang Attribute
 	private Question meineFrage;
+	private Player aktPlayer;
 	private JTextField tfA = new JTextField();
 	private JTextField textA = new JTextField();
 	private JTextField textB = new JTextField();
@@ -33,12 +34,12 @@ public class GuiFrage extends JFrame {
 	private JButton bD = new JButton();
 	// Ende Attribute
 
-	public GuiFrage(Question pMeineFrage) {
+	public GuiFrage(Question pMeineFrage, Player pPlayer) {
 
 		// Frame-Initialisierung
 		super();
 		this.meineFrage = pMeineFrage;
-
+		this.aktPlayer = pPlayer;
 		setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 		int frameWidth = 1242;
 		int frameHeight = 800;
@@ -143,21 +144,42 @@ public class GuiFrage extends JFrame {
 
 	public void bA1_ActionPerformed(ActionEvent evt) {
 		kontrolle();
+		if (meineFrage.getRichtig() == 'A') {
+			aktPlayer.setPoints(aktPlayer.getPoints() + meineFrage.getPunkte());
+			Auswahl.setAktPlayer(aktPlayer);
+			Auswahl.bestimmeAktPlayer();
+		}
 		bA1.setBackground(Color.WHITE);
 	} // end of bA1_ActionPerformed
 
 	public void bB1_ActionPerformed(ActionEvent evt) {
 		kontrolle();
+		if (meineFrage.getRichtig() == 'B') {
+			aktPlayer.setPoints(aktPlayer.getPoints() + meineFrage.getPunkte());
+			Auswahl.setAktPlayer(aktPlayer);
+			Auswahl.bestimmeAktPlayer();
+		}
+
 		bB1.setBackground(Color.WHITE);
 	} // end of bB1_ActionPerformed
 
 	public void bC_ActionPerformed(ActionEvent evt) {
 		kontrolle();
+		if (meineFrage.getRichtig() == 'C') {
+			aktPlayer.setPoints(aktPlayer.getPoints() + meineFrage.getPunkte());
+			Auswahl.setAktPlayer(aktPlayer);
+			Auswahl.bestimmeAktPlayer();
+		}
 		bC.setBackground(Color.WHITE);
 	} // end of bC_ActionPerformed
 
 	public void bD_ActionPerformed(ActionEvent evt) {
 		kontrolle();
+		if (meineFrage.getRichtig() == 'D') {
+			aktPlayer.setPoints(aktPlayer.getPoints() + meineFrage.getPunkte());
+			Auswahl.setAktPlayer(aktPlayer);
+			Auswahl.bestimmeAktPlayer();
+		}
 		bD.setBackground(Color.WHITE);
 	} // end of bD_ActionPerformed
 

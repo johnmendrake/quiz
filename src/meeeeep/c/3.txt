@@ -4,4 +4,4 @@ B: Tokyo
 C: Nagasaki
 D: Hiroshima
 true: D
-0
+030

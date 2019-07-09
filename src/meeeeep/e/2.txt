@@ -4,4 +4,4 @@ B: die maulende Myrte
 C: der Fast Kopfloser Nick
 D: die Klagende Witwe
 true: B
-0
+020

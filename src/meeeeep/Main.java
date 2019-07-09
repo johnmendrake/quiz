@@ -15,7 +15,7 @@ public class Main {
 		playersToGraph();
 
 		meinQuiz1.fragenEinlesen();
-		new Auswahl(meinQuiz1, players);
+		new Auswahl(meinQuiz1, players,meins);
 	}
 
 	public static void playersToGraph() {

@@ -4,4 +4,4 @@ B: Niederlande
 C: Norwegen
 D: Frankreich
 true: C
-0
+010

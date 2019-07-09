@@ -4,4 +4,4 @@ B: Gärten von Babylon
 C: Chinesische Mauer
 D: Koloss von Rhodos
 true: C
-0
+050

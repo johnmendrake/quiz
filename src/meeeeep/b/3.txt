@@ -4,4 +4,4 @@ B: Windräder
 C: Sonne
 D: Erde und Mond
 true: D
-0
+030

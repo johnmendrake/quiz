@@ -4,4 +4,4 @@ B: Ribonukleinsäure
 C: Desoxyribonukleinacid
 D: Domain Name Syntax
 true: A
-0
+040

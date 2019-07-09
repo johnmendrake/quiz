@@ -4,4 +4,4 @@ B: Gríma Schlangenzunge
 C: Galadriel 
 D: Peregrin Tuk 
 true: A
-0
+050

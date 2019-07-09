@@ -28,7 +28,7 @@ public class Quiz1 {
     
     public void fragenEinlesenA() {
         try {
-            File directory = new File("src/meeeeep/Fragen/a");
+            File directory = new File("src/meeeeep/a");
 
             // get all the files from a directory
 
@@ -79,7 +79,7 @@ public class Quiz1 {
     
     public void fragenEinlesenB() {
         try {
-            File directory = new File("src/meeeeep/Fragen/b");
+            File directory = new File("src/meeeeep/b");
 
             // get all the files from a directory
 
@@ -130,7 +130,7 @@ public class Quiz1 {
     
     public void fragenEinlesenC() {
         try {
-            File directory = new File("src/meeeeep/Fragen/c");
+            File directory = new File("src/meeeeep/c");
 
             // get all the files from a directory
 
@@ -181,7 +181,7 @@ public class Quiz1 {
     
     public void fragenEinlesenD() {
         try {
-            File directory = new File("src/meeeeep/Fragen/d");
+            File directory = new File("src/meeeeep/d");
 
             // get all the files from a directory
 
@@ -232,7 +232,7 @@ public class Quiz1 {
 
     public void fragenEinlesenE() {
         try {
-            File directory = new File("src/meeeeep/Fragen/e");
+            File directory = new File("src/meeeeep/e");
 
             // get all the files from a directory
 
